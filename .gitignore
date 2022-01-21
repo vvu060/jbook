@@ -1,13 +1,13 @@
-/cli/node_modules
-/cli/.pnp
+packages/cli/node_modules
+packages/cli/.pnp
 .pnp.js
 
-/local-api/node_modules
-/local-api/.pnp
+packages/local-api/node_modules
+packages/local-api/.pnp
 .pnp.js
 
-/local-client/node_modules
-/local-client//.pnp
+packages/local-client/node_modules
+packages/local-client/.pnp
 .pnp.js
 
 
