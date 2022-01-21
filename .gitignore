@@ -1,3 +1,4 @@
+# ignore node_modules an dist folders
 packages/cli/node_modules
 packages/cli/.pnp
 packages/cli/.pnp.js
@@ -9,6 +10,11 @@ packages/local-api/.pnp.js
 packages/local-client/node_modules
 packages/local-client/.pnp
 packages/local-client/.pnp.js
+
+packages/cli/dist
+packages/local-api/dist
+packages/local-client/dist
+packages/build/dist
 
 
 lerna-debug.log
