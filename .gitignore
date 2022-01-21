@@ -1,13 +1,14 @@
 packages/cli/node_modules
 packages/cli/.pnp
-.pnp.js
+packages/cli/.pnp.js
 
 packages/local-api/node_modules
 packages/local-api/.pnp
-.pnp.js
+packages/local-api/.pnp.js
 
 packages/local-client/node_modules
 packages/local-client/.pnp
-.pnp.js
+packages/local-client/.pnp.js
 
 
+lerna-debug.log
