@@ -3,5 +3,9 @@
   "private": true,
   "devDependencies": {
     "lerna": "^3.22.1"
+  },
+  "scripts":{
+    "dev": "lerna run start --parallel",
+    "start": "lerna run start --parallel"
   }
 }
