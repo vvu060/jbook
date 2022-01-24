@@ -16,11 +16,11 @@ export const serve = (port:number, filename:string, dir: string, useProxy: boole
         logLevel: 'silent'
       }));
   } else {
-      const packagePath = require.resolve('local-client/.next/server/pages/index.html')
-      app.use(express.static(path.dirname(packagePath))
-  }
+      const packagePath = require.resolve('@jbook-vishal/local-client/.next/server/pages/index.html');
+      app.use(express.static(path.dirname(packagePath));
+  };
 
   return new Promise<void>((resolve, reject) => {
-    app.listen(port, resolve).on('error', reject)
+    app.listen(port, resolve).on('error', reject);
   })
 };

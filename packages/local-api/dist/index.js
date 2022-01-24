@@ -19,9 +19,10 @@ var serve = function (port, filename, dir, useProxy) {
         }));
     }
     else {
-        var packagePath = require.resolve('local-client/.next/server/pages/index.html');
+        var packagePath = require.resolve('@jbook-vishal/local-client/.next/server/pages/index.html');
         app.use(express_1.default.static(path_1.default.dirname(packagePath)));
     }
+    ;
     return new Promise(function (resolve, reject) {
         app.listen(port, resolve).on('error', reject);
     });

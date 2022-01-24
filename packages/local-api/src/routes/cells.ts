@@ -41,7 +41,7 @@ export const createCellsRouter = (filename: string, dir: string) => {
 
     // Take the list of cells from the req object
     // serialize them
-    const { cell }: { cells: Cell[] } = req.body;
+    const { cells }: { cells: Cell[] } = req.body;
 
     // write the cells into the file 
     await fs.writeFile(fullPath, JSON.stringify(cells), 'utf-8');

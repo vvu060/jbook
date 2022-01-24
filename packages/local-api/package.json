@@ -1,13 +1,19 @@
 {
-  "name": "local-api",
+  "name": "@jbook-vishal/local-api",
   "version": "1.0.0",
   "description": "",
+  "publishConfig": {
+    "access": "public"
+  },
+  "files": [
+    "dist"
+  ],
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
     "dev": "tsc --watch --preserveWatchOutput",
     "start": "tsc --watch --preserveWatchOutput",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "prepublishOnly": "tsc"
   },
   "keywords": [],
   "author": "",
@@ -21,6 +27,6 @@
     "cors": "^2.8.5",
     "express": "^4.17.2",
     "http-proxy-middleware": "^2.0.1",
-    "local-client": "^1.0.0"
+    "@jbook-vishal/local-client": "^1.0.0"
   }
 }
